@@ -1,0 +1,192 @@
+body{
+	margin:0;
+	font-family: 'Acme', sans-serif;
+    clear: both;
+    overflow: scroll;
+
+}
+
+
+.principal h1{
+
+	
+}
+
+ .container h1{
+	font-family:'Acme', sans-serif;
+	float: left;
+}
+.menu{
+	
+	float: right;
+	position: relative;
+
+}
+
+
+
+
+#home{
+	background-color: green;
+	width:100px;
+	height:35px;
+	position: 10px;
+	font-family:'Acme', sans-serif;
+}
+
+#jogar{
+
+background-color: green;
+width:100px;
+height:35px;
+font-family:'Acme', sans-serif;
+
+}
+
+#ranking{
+
+background-color: green;
+width:100px;
+height:35px;
+font-family:'Acme', sans-serif;
+}
+*{margin: 0; padding: 0;}
+ 
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+
+}
+.container{
+	 background-color: #069;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
+}
+
+
+
+.menu ul {
+width: 100%;
+height: auto;
+padding: 10px;
+margin: 0;
+background-color: #069;
+list-style: none; 
+/* remove os pontinhos antes dos itens */
+}
+.menu ul li {
+display: inline; 
+/* alinha os itens na horizontal */
+}
+.menu ul li a {
+padding: 2px 10px;
+display: inline-block;
+margin-left: 15px;
+background-color: #069;
+color: #fff;
+text-decoration: none; 
+/* remove o sublinhado do link */
+
+border-bottom: 3px solid #069;
+}
+.menu ul li a:hover { 
+/* efeito para quando passar o mouse 
+   sobre o item do menu */
+color: #f5f5f5;
+border-bottom: 3px solid #f5f5f5;
+}
+
+.img{
+	width:800px;
+	height: 200px;
+	margin:0px;
+}
+
+
+.rodape-prin
+{
+    background-color:  rgb(0, 0, 0);       
+    clear: both;
+    padding: 28px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    margin-top: 200px;
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+.menu{
+	font-family:'Acme', sans-serif;
+	font-size: 15px;
+}
+
+
+
+.conteudo{
+    
+	font-size: 25px;
+	text-align: left;
+	padding-right: 30px;
+	padding: 10px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'noto sans', sans-serif;
+}
+
+.sobre{
+	text-align: center;
+	font-family: 'Noto sans',sans-serif;
+	font-size: 500%;
+	background-color: #87CEEB; ;
+	width:500px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 440px;
+	margin-right: 610px;
+	box-shadow:10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0.005, 0.625, 0.365, 0.0840);
+}
+
+
+a:link {
+text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+
+	
+#link{
+    color: #ef4646;
+	text-decoration: none;
+	font-family: 'bree', serif;
+	font-size: 30px;
+}
+
+.paragrafo{
+	padding-right: 30px;
+	text-align: left;
+
+}
+/*
+.div-sobre{
+    
+    margin-left: 40px;;
+    margin-right: 40px;
+    padding: 20px;
+    margin-top: 70px;
+    background-color: #83d6ff;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+*/

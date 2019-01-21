@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid black;
+    height: 3rem;
+    padding: 10px;
+}
+
+.perguntas{
+    border: 1px solid red;
+    float: left;
+    width: 30%;
+}
+
+.alternativas{
+    border: 1px solid green;
+    float: right;
+    width: 30%;
+}

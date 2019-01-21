@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang pt-br>
+<head>
+	<meta charset="UTF-08">
+	<title>Jogar</title>
+    <link rel="shortcut icon" href="imagens/favicon.jpg"> 
+	<link rel="stylesheet" href="css/jogar.css">
+	<link rel="stylesheet" href="css/estilo.css">
+<!--	<link rel="stylesheet" href="css/reset.css">-->
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+<body>
+	<main>
+        <header class="container">
+            <h1 class="Quiz-h1"><center> <a class ="link-home" href="index.html">Tag Quiz</a></center></h1>
+
+			<nav class="menu">
+				<ul>				
+					<li> <a href="index.html" >Home</a></li>
+					<li> <a href="sobre.html">Sobre</a></li>			
+				</ul>
+			</nav>
+        </header>
+        <aside>
+            <h3 class = "categoria" id="inicio">Quiz de HTML5</h3>
+            <ul class="relogio">
+                <li>
+                    <img class ="icone-relogio" id="relogio" src="imagens/relogio.jpg" alt="imagem de relógio">
+                    <span class ="contagem-regressiva">15</span> segundos
+                </li>
+            </ul>
+            
+        </aside>
+
+        <div class="conteudo borda-fade-out" id="jogo">
+
+            <div class="pergunta">
+                <h3 class ="titulo-4">Pergunta <span id="numero-pergunta">1</span></h3>
+                <div style="width: 400px; text-align: center;">
+                    <span id="pergunta-jogo"></span>
+                </div>
+            </div>
+            <div class="divisor">
+            </div>
+                
+            <div class ="options">
+                <h3 class ="titulo-4">Alternativas</h3>
+                <ul class ="alternativas" id="alternativas">
+                    <li class ="alternativa"></li>
+                    <li class ="alternativa"></li>
+                    <li class ="alternativa"></li>
+                    <li class ="alternativa"></li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="botoes">
+            <ul>
+                <a href="#" id="reiniciar"><li id="recomecar"><label class="label-botao">Recomeçar</label></li></a>
+                <a href="#" id="encerrar-jogo"><li id="encerrar"><label class="label-botao">Novo jogo</label></li></a>
+            </ul>
+        </div>
+        
+        <div class="container-placar">
+
+            <h1 class ="titulo-4">Placar</h1>
+
+            <table id="placar">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Acertos</th>
+                        <th>Tempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+    <div id="modal-comecar" class="modal">
+        <div class="conteudo">
+            <div>
+                <div class="modal-content">
+                    <h3 class="titulo-4">Vamos começar?</h3>
+                    <input type="text" placeholder="Informe seu nome..." id="nome" name="nome"/>
+                    <button id="botao-comecar">Começar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-encerrado" class="modal">
+        <div class="conteudo">
+            <div>
+                <div class="modal-content">
+                    <h3 class="titulo-4">Jogo encerrado</h3>
+                    <button id="botao-recomecar">Começar novo jogo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-contagem" class="modal">
+        <div class="conteudo">
+            <div class="modal-content">
+                <span id="cronometro"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/perguntas.js"></script>
+    <script src="js/principal.js"></script>    
+</body>
+</html>
